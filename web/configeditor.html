@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Hire me - LET-WEB-CONFIG</title>
+    <title>LET-WEB-CONFIG</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=3d143f778ec749519f74424dd4367985">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css?h=e7cfb9ec830984d637c4aed91cd725c5">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=9ff9f88dabe816b3c8e7c9cbf746b0f7">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=9501643c3f78bb3d9cd070bd464f7324">
+<script src="core/core.js"></script>
 </head>
 
 <body>
@@ -51,7 +52,7 @@
                         </div>
                         <div class="row">
                             <div class="col"><label class="form-label" for="text_encoder_lr">Text encoder learning rate</label><input class="form-control" type="number" id="text_encoder_lr" step="any" value="0.000001"></div>
-                            <div class="col"><label class="form-label" for="scheduler_power">Polinomial strength</label><input class="form-control" type="number" id="scheduler_power-2" step="0.05" value="1"></div>
+                            <div class="col"><label class="form-label" for="scheduler_power">Polinomial strength</label><input class="form-control" type="number" id="scheduler_power" step="0.05" value="1"></div>
                         </div>
                         <div class="row">
                             <div class="col">
@@ -76,8 +77,8 @@
                             <div class="col"><label class="form-label" for="clip_skip">CLIP skip</label><input class="form-control" type="number" id="clip_skip" step="1" value="2"></div>
                         </div>
                         <div class="row">
-                            <div class="col"><label class="form-label" for="num_epochs">Number of epochs</label><input class="form-control" type="number" id="num_epochs-1" step="1" value="8"></div>
-                            <div class="col"><label class="form-label" for="save_every_n_epochs">Save every n epochs</label><input class="form-control" type="number" id="save_every_n_epochs-1" step="1" value="1"></div>
+                            <div class="col"><label class="form-label" for="num_epochs">Number of epochs</label><input class="form-control" type="number" id="num_epochs" step="1" value="8"></div>
+                            <div class="col"><label class="form-label" for="save_every_n_epochs">Save every n epochs</label><input class="form-control" type="number" id="save_every_n_epochs" step="1" value="1"></div>
                         </div>
                         <div class="row">
                             <div class="col"><label class="form-label" for="mixed_precision">Presission</label><select class="form-select" id="mixed_precision">
@@ -107,7 +108,7 @@
                     <div class="mb-3"><label class="form-label" for="training_comment">Training comment</label><textarea class="form-control" id="training_comment"></textarea></div>
                     <div class="mb-3">
                         <div class="row">
-                            <div class="col-md-6 button"><button class="btn btn-primary d-block w-100" onclick="importJSON()">Import</button></div>
+                            <div class="col-md-6"><label class="form-label" for="loadConfig">Load config</label><input class="form-control" type="file" id="loadConfig" accepts="text/json" onchange="importJSON()"></div>
                             <div class="col-md-6 button"><button class="btn btn-primary d-block w-100" onclick="exportJSON()">Export</button></div>
                         </div>
                     </div>

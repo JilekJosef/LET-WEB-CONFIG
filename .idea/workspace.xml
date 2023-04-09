@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fec2c5d1-21c1-4687-a58e-d5f09055ed6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LET-WEB-CONFIG.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LET-WEB-CONFIG.bsdesign" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/css/styles.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/S6u9w4BMUTPHh6UVSwaPGR_p.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/S6u9w4BMUTPHh6UVSwiPGQ.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/S6u9w4BMUTPHh7USSwaPGR_p.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/S6u9w4BMUTPHh7USSwiPGQ.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/S6uyw4BMUTPHjx4wXg.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/S6uyw4BMUTPHjxAwXjeu.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/configeditor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/core/core.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,23 +38,40 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2OCSfezhw75i9iADWHgadLfUXOX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;AngularJS&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,7 +80,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681044376744</updated>
-      <workItem from="1681044377995" duration="1000" />
+      <workItem from="1681044377995" duration="641000" />
+      <workItem from="1681063178483" duration="24000" />
+      <workItem from="1681066544619" duration="3550000" />
+      <workItem from="1681070499341" duration="401000" />
+      <workItem from="1681070904637" duration="1288000" />
     </task>
     <servers />
   </component>
