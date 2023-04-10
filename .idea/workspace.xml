@@ -4,30 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fec2c5d1-21c1-4687-a58e-d5f09055ed6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LET-WEB-CONFIG.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LET-WEB-CONFIG.bsdesign" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/styles.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/S6u9w4BMUTPHh6UVSwaPGR_p.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/S6u9w4BMUTPHh6UVSwiPGQ.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/S6u9w4BMUTPHh7USSwaPGR_p.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/S6u9w4BMUTPHh7USSwiPGQ.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/S6uyw4BMUTPHjx4wXg.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/S6uyw4BMUTPHjxAwXjeu.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/script.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/configeditor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/core/core.js" afterDir="false" />
+    <list default="true" id="fec2c5d1-21c1-4687-a58e-d5f09055ed6a" name="Changes" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LET-WEB-CONFIG.bsdesign" beforeDir="false" afterPath="$PROJECT_DIR$/LET-WEB-CONFIG.bsdesign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/configeditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/configeditor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/core.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +66,24 @@
       <workItem from="1681063178483" duration="24000" />
       <workItem from="1681066544619" duration="3550000" />
       <workItem from="1681070499341" duration="401000" />
-      <workItem from="1681070904637" duration="1288000" />
+      <workItem from="1681070904637" duration="2940000" />
+      <workItem from="1681113477737" duration="1076000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1681072663311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681072663311</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>

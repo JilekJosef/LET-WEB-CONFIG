@@ -7,7 +7,7 @@
     <title>LET-WEB-CONFIG</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=3d143f778ec749519f74424dd4367985">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css?h=e7cfb9ec830984d637c4aed91cd725c5">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=9501643c3f78bb3d9cd070bd464f7324">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=30d949f03f39501215e8f1a3f730e9fc">
 <script src="core/core.js"></script>
 </head>
 
@@ -62,6 +62,12 @@
                                 <div class="form-check" style="margin-top: 1.5em;"><input class="form-check-input" type="checkbox" id="text_only"><label class="form-check-label" for="text_only">Train text encoder only</label></div>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-check" style="margin-top: 1.5em;"><input class="form-check-input" type="checkbox" id="shuffle_captions"><label class="form-check-label" for="shuffle_captions">Shuffle captions</label></div>
+                            </div>
+                            <div class="col"><label class="form-label" for="keep_tokens">Polinomial strength</label><input class="form-control" type="number" id="keep_tokens" step="1" value="1"></div>
+                        </div>
                     </div>
                     <div class="mb-3">
                         <div class="row">
@@ -103,6 +109,15 @@
                                 <div class="form-check" style="margin-top: 1.5em;"><input class="form-check-input" type="checkbox" id="use_conv_cp" checked=""><label class="form-check-label" for="use_conv_cp">Use CP decomposition (LyCORIS)</label></div>
                             </div>
                             <div class="col"><label class="form-label" for="conv_alpha">Convulence Alpha (LyCORIS)</label><input class="form-control" type="number" id="conv_alpha" step="1" value="32"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col"><label class="form-label" for="algo">Algorithm (LyCORIS)</label><select class="form-select" id="algo">
+                                    <option value="lora" selected="">LoCon</option>
+                                    <option value="loha">LoHa</option>
+                                    <option value="ia3">ia3</option>
+                                    <option value="lokr">lokr</option>
+                                </select></div>
+                            <div class="col"></div>
                         </div>
                     </div>
                     <div class="mb-3"><label class="form-label" for="training_comment">Training comment</label><textarea class="form-control" id="training_comment"></textarea></div>

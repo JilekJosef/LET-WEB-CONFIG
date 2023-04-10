@@ -38,6 +38,9 @@ function setStuffFromObj(jsonConfig){
     document.getElementById("num_epochs").value = jsonConfig.num_epochs;
     document.getElementById("save_every_n_epochs").value = jsonConfig.save_every_n_epochs;
     document.getElementById("text_only").checked = jsonConfig.text_only;
+    document.getElementById("algo").value = jsonConfig.algo;
+    document.getElementById("shuffle_captions").checked = jsonConfig.shuffle_captions;
+    document.getElementById("keep_tokens").value = jsonConfig.keep_tokens;
 }
 
 function exportJSON(){
@@ -83,7 +86,7 @@ function exportJSON(){
         "save_precision": document.getElementById("save_precision").value,
         "lyco": document.getElementById("lyco").checked,
         "network_args": {
-            "algo": "lora",
+            "algo": document.getElementById("algo").value,
             "conv_dim": parseInt(document.getElementById("conv_dim").value),
             "conv_alpha": parseInt(document.getElementById("conv_alpha").value),
             "use_conv_cp": document.getElementById("use_conv_cp").checked
@@ -101,8 +104,8 @@ function exportJSON(){
         "max_bucket_resolution": 960,
         "bucket_reso_steps": null,
         "bucket_no_upscale": false,
-        "shuffle_captions": false,
-        "keep_tokens": null,
+        "shuffle_captions": document.getElementById("shuffle_captions").checked,
+        "keep_tokens": parseInt(document.getElementById("keep_tokens").value),
         "token_warmup_step": null,
         "token_warmup_min": null,
         "xformers": true,
