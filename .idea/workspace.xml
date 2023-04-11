@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fec2c5d1-21c1-4687-a58e-d5f09055ed6a" name="Changes" comment="init commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LET-WEB-CONFIG.bsdesign" beforeDir="false" afterPath="$PROJECT_DIR$/LET-WEB-CONFIG.bsdesign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/configeditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/configeditor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/core.js" afterDir="false" />
-    </list>
+    <list default="true" id="fec2c5d1-21c1-4687-a58e-d5f09055ed6a" name="Changes" comment="added algo, shuffle_captions, keep_tokens" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +61,7 @@
       <workItem from="1681066544619" duration="3550000" />
       <workItem from="1681070499341" duration="401000" />
       <workItem from="1681070904637" duration="2940000" />
-      <workItem from="1681113477737" duration="1076000" />
+      <workItem from="1681113477737" duration="1665000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1681072663311</created>
@@ -76,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681072663311</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added algo, shuffle_captions, keep_tokens">
+      <created>1681114731272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681114731272</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +85,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="added algo, shuffle_captions, keep_tokens" />
+    <option name="LAST_COMMIT_MESSAGE" value="added algo, shuffle_captions, keep_tokens" />
   </component>
 </project>

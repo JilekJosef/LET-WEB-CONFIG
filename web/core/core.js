@@ -32,13 +32,13 @@ function setStuffFromObj(jsonConfig){
     document.getElementById("mixed_precision").value = jsonConfig.mixed_precision;
     document.getElementById("save_precision").value = jsonConfig.save_precision;
     document.getElementById("lyco").checked = jsonConfig.lyco;
-    document.getElementById("conv_dim").value = jsonConfig.conv_dim;
-    document.getElementById("conv_alpha").value = jsonConfig.conv_alpha;
-    document.getElementById("use_conv_cp").checked = jsonConfig.use_conv_cp;
+    document.getElementById("conv_dim").value = jsonConfig.network_args.conv_dim;
+    document.getElementById("conv_alpha").value = jsonConfig.network_args.conv_alpha;
+    document.getElementById("use_conv_cp").checked = jsonConfig.network_args.use_conv_cp;
     document.getElementById("num_epochs").value = jsonConfig.num_epochs;
     document.getElementById("save_every_n_epochs").value = jsonConfig.save_every_n_epochs;
     document.getElementById("text_only").checked = jsonConfig.text_only;
-    document.getElementById("algo").value = jsonConfig.algo;
+    document.getElementById("algo").value = jsonConfig.network_args.algo;
     document.getElementById("shuffle_captions").checked = jsonConfig.shuffle_captions;
     document.getElementById("keep_tokens").value = jsonConfig.keep_tokens;
 }
